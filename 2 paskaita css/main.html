@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!-- Nurodymai head dalyje skirti visam failui-->
+    <meta charset="UTF-8">
+    <title>CSS įvadas</title>
+    <style>
+        p{
+            font-weight: bold;
+            color: blue;
+        }
+        #sugalvotaIdPavadinimas{
+            line-height: 30px;
+            color: brown;
+        }
+        .sekantiKlase{
+            color: crimson;
+        }
+        .sugalvotasKlasesPavadinimas{
+            border: 3px solid purple;
+            border-radius: 10%;
+        }
+    </style>
+    <!--link rel="stylesheet" href="@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);">-->
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <div> <!-- Inline CSS-->
+        <h1>Inline CSS - Linijinis CSS</h1>
+        <p style="color:mediumvioletred; font-size: larger;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione in delectus sed inventore. Perspiciatis modi earum nesciunt voluptatem harum doloribus totam voluptates doloremque voluptatibus culpa aut ipsa eum, sunt esse.
+        </p>
+        <p style="color:aqua">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, debitis!
+        </p>
+        <p>
+            Linijinis stilizavimas naudijamas, kai norima greitai pastilizuoti arba testuotis stilius.
+        </p>
+    </div>
+    <div> <!-- Internal CSS -->
+     <h1>Internal CSS - Vidinis CSS</h1>
+    <p id="sugalvotaIdPavadinimas">
+    Vienas ID vienam elementui.
+    </p>
+    <p class="sugalvotasKlasesPavadinimas sekantiKlase">
+    Klasiu galima skirti daug, esme kad tarpusavyje nesikirstu.
+    </p>
+    </div>
+    <div> <!-- External CSS-->
+ <h1>External CSS - Išorinis CSS</h1>
+ <p>
+    <span class="pariskintasTekstas">CSS bendrai</span> naudijamas, kaip teisiklingas budas.
+ </p>
+<p class="melynasTekstas">
+    Issorineme CSS galima kurti klases, ideas ir panasiai.
+</p> 
+<p class="raudonasTekstas">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae nulla hic doloremque dolores ducimus quas quasi quisquam labore vel! Aspernatur est animi qui expedita sapiente hic magnam dignissimos, aperiam dolorum.
+</p> 
+    </div>
+    <section><!-- Konspektas-->
+        <div> <!-- CSS rašymo būdai-->
+        <h1>CSS rašymo budai</h1>
+        <ul>
+            <li>Inline - Linijinis rašomas tag,o 
+            viduje, naudojant style atributa</li>
+            <li>Internal - Vidinis rašomas 
+            style tago viduje, head dalyje</li>
+            <li>External, rašomas atskiram CSS faile, kurį 
+            reikia prisijungti prie html naudoja link tag'ą</li>
+        </ul>
+        </div>
+        <div> <!--CSS Selekrotiai-->
+        <h1>CSS Selekrotiai</h1>
+        <ul>
+            <li>element - parenkamas pagal jo pavadinimą (p{})</li>
+            <li>id - sukuriamas susigalvotas id pavadinimas ir priskiriamas vienam elementui
+                (#idpavadinimas{})</li>
+            <li>class - sukuriamas susigalvotas klases pavadinimas ir priskiriamas bet kuriam elementui
+                (.klasesVardas{})</li>
+        </ul>
+        </div>
+        <div> <!--Stiliai-->
+            <h1>Stiliai</h1>
+            <ul>
+                <li>color - skirtas pakeisti spalva (color: red)</li>
+                <li>font-size - skirtas pakeisti dydziu (font-size: 20px</li>
+                <li>background-color - (bacground-color: aqua)</li>
+                <li>font-family - sriftas (font-family: monospce)</li>
+                <li>line-height - (line-height: 20px)</li>
+                <li>font-weight - (font-wigth: bold)</li>
+                <li>border - skirtas nurodyti remelio stori+tipa+spalva (border: 5px solid black)</li>
+                <li>border-radius - skirtas apvalinti remelio kampus (border-radius: 10px)</li>
+                <li>text-align - skirtas ligiuoti teksta (text-aline: center)</li>
+                <Li>list-style-type -skirtas pakeisti sąrašo žimėjimo tipą</Li>
+            </ul>
+        </div>
+        <div> <!--Spalvos-->
+            <h1>Spalvos</h1>
+            <ul>
+            <li>Spalvos vardo uzrasymas, bet yra tik 140 pavadinimų - red</li>
+            <li>HSL - nenaudojamas placiai, tai nereik - color: (hsl(0, 100%, 50%))</li>
+            <li>HEX - naudojamas tai pat placia kaip ir RGB - (#FF0000)</li>
+            <li>RGB - Placiai naudojams. - (rgb(255, 0, 0))</li>
+            <li>HSL ir RGB permatomumas nurodomas nuo (pilnai permatomas) 0 iki (pilnai matomas) 1. (hsla(0, 100%, 50%, 1), visalaik 4 skaicius rodo permatomuma</li>
+            <li>HEX permaomumas nurodomas nuo 00 iki FF. (#FF0000FF</li>
+        </ul>
+        </div>
+        <div> <!--HEX ir RGB-->
+            <h1> HEX ir RGB</h1>
+            <li>RGB - RedBlueGreen. Kiekvienos spalvos kiekio nuorodai nuo 0 iki 225.</li>
+            <li>HEX. Kiekvienos spalvos nurodoma nuo 0 iki FF. 
+                PVZ: 01;02;03;04;05;06;07;08;09;a0;a1...b1 ir t.t.</li>
+        </div>
+    </section>
+    <Div>
+        <video width="300px" autoplay controls>
+            <source src="./video pavadinimas.mp4" type="video/mp4"
+
+        </video>
+    </Div>
+</body>
+</html>

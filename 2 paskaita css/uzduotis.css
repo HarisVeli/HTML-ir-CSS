@@ -1,0 +1,19 @@
+h1{ 
+    text-align:left;
+}
+.zaliasTekstas{
+    color:green;
+    text-decoration-line: underline;
+}
+.melynasTekstas{
+    color: blue;
+}
+.sviesusTekstas{
+    color: rgb(53, 171, 226);
+}
+.paverstasTekstas{
+    font-style: italic;
+}
+.sriftas{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}

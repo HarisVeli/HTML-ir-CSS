@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>4 paskaita</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="icon" href="./Images/purepng.com-disney-logologobrand-logoiconslogos-251519939495wtv86.png">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="position">Position</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="position">
+            <h1>Position</h1>
+            <ul>
+                <li>Static</li>
+                <li>Relative</li>
+                <li>Absolute</li>
+                <li>Fixed</li>
+                <li>Sticky</li>
+            </ul>
+            <p>
+                Naudojant bet kuria apart statines pozicijos, gauname
+                prieeiga prie 5 nauju stiliu: top, left, right, bottom ir z-index.
+                <br> Sitie stiliai nurodo per koki atstuma elementas
+                turi buti atitrauktas.
+                <br> Z indeksas nurodo kuri objekta rodis ant virsaus
+            </p>
+            <div>
+                <p>
+                    Statine pozicija - nieko ipatingo nedaro. Net nesuteikia
+                    galimybes naudoti top/left/right/bottom/z-index. Skirtas panaikinti savybe.
+                </p>
+                <div class="kvadratuKonteineris">
+                    <div class="kvadratas statinis">Static 1</div>
+                    <div class="kvadratas statinis">Static 1</div>
+                    <div class="kvadratas statinis">Static 1</div>
+                    <div class="kvadratas statinis">Static 1</div>
+                </div>
+            </div>
+            <div>
+                <p>
+                    Relativioji pozicija - nieko ipatingo nedaro.
+                    Bet suteikia galimybe naudoti top/left/right/bottom/z-index.
+                    <br> suteikus t/l/r/b stilius jis atsitraukia pernurodyta atstuma
+                    nuo savo pradines pozicijos. Naudojam jei mums reikia
+                    siek tiek pajudinti arba keisti 3d pozicija.
+                </p>
+                <div class="kvadratuKonteineris">
+                    <div class="kvadratas statinis">Relae 1</div>
+                    <div class="kvadratas relative top_20">Relae 1</div>
+                    <div class="kvadratas relative left_30 z_index">Static 1</div>
+                    <div class="kvadratas relative">Static 1</div>
+                </div>
+            </div>
+            <div>
+                    <p>
+                        Absoliucioji pozicija - elementas kuris iskrenta is tekmes. Kiti elementai uzima jo vieta.
+                        Atsitraukia nuo tevynio elemento kuris turi relative posicija. Naudojamas POP UP, kai norima kad
+                        elementas neuzimtu tame kvadrate vietos.<br> Elementui suteikus t/l/r/b stilius, jisai
+                        atsitraukia per nurodyta atstuma, nuo artimiausio tevinio elemento kuris turi reletyviaja
+                        pozicija. Jei neranda atsitraukia nuo HTML (ekrano krastu.)
+                    </p>
+                    <div class="kvadratuKonteineris">
+                        <div class="kvadratas statinis">Statinis 1</div>
+                        <div class="kvadratas statinis">Absolut 1</div>
+                        <div class="kvadratas statinis">statinis 2</div>
+                        <div class="kvadratas absolute bottom_50">Absolut 2</div>
+                    </div>
+            </div>
+            <div>
+                <p>
+                            Fixed pozicija - elementas iseina is puslapio tekmes ir fiksuojasi nurodytoje arba pradineje
+                            savo pozicijoje. Taip pat jeigu nera nustatytas elemento dydis, elementas sumazeja iki minimalaus dydzio. Elementui suteikus t/l/r/b stilius, jisai
+                            atsitraukia per nurodyta atstuma, nuo HTML (ekrano krastu.)
+                </p>
+                <div class="kvadratuKonteineris">
+                <div class="kvadratas statinis">Static 1</div>
+                <div class="kvadratas statinis">Static 1</div>
+                <div class="kvadratas fixed bottom_50">FIXED</div>
+                <div class="kvadratas statinis">Static 1</div>
+                </div>
+              </div>
+            <div>
+            <p>Lipnioji pozicija - neiseina is puslapio tekemes. Ekrano krastams priartejus prie jo jis prilimpa prie ekrano krasto per nurodyta atstuma ir juda kartu su ekranu kol nepasiekia savo tevinio elemento ribu <p>
+            <div class="kvadratuKonteineri">
+                <div class="kvadratuKonteineris">
+                    <div class="kvadratas statinis">Static 1</div>
+                    <div class="kvadratas statinis">Static 1</div>
+                    <div class="kvadratas statinis">Static 1</div>
+                    <div class="kvadratas stickyKonteineris right_40 top_20">STICKY</div>
+            </div>
+        </div>   
+        </section>
+        <section>
+            <div>
+                <h1>Terminalu komandos</h1>
+                <ul>
+                    <li>cd- change directory - vaiksciojimas tarp aplankalu. </li>
+                    <li>ls - kist files and directories - isvardinti failus ir aplankus </li>
+                    <li>CTRL C - atsaukia vykdoma veiksma</li>
+                    <li>TAB - uzbaigia fraze arba pateikia pasiulymus </li>
+                    <li> clear - isvalyti(nujelia i virsu slamsta)</li>
+                </ul>
+            </div>
+            <div>
+                <h1>Git komandos</h1>
+                <ul>
+                    <li>git init - initialized</li>
+                    <li>git status - statusas, parodo dabartinia git main info su failais repozitorijoje</li>
+                    <li>git add - stagina paruosia failus commitinimui </li>
+                    <li>commit - sukuria kodo versija is stageintu failu</li>
+                </ul>
+            </div>
+        </section>   
+    </main>
+
+</body>
+
+</html>

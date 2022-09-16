@@ -1,0 +1,39 @@
+.sriftas{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.zaliasTekstasBold{
+    color: green;
+    font-weight: bold;
+}
+.zaliasTekstas{
+    color: green
+}
+.oradzinisTekstas{
+    color: rgb(255, 153, 0);
+}
+.boldTekstas{
+    font-weight: bold;
+}
+.melynasTekstasBold{
+    color: blue;
+    font-weight: bold;
+}
+.raudonasTekstas{
+    color:red;
+    text-decoration-line: line-through;
+}
+.ligiuote{
+    text-align: center;
+    line-height: 20%;
+}
+.centras{
+    text-align: center;
+}
+.fontsimple{
+    font-weight: normal;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;

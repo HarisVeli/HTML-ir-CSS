@@ -1,0 +1,19 @@
+.betasku{
+    content: counter(item) "  "; 
+    counter-increment: item ;
+}
+.bruksnys{
+    list-style-type: '- ';
+}
+.sriftas{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.vienas{
+    list-style-type: '1 ';
+}
+.du{
+    list-style-type: '2 ';
+}
+.trys{
+    list-style-type: '3 ';
+}

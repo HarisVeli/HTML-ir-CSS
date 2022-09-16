@@ -1,0 +1,91 @@
+header{
+    background-color: rgb(212, 216, 219);
+    height: 60px;
+}
+footer{
+    background-color: rgb(212, 216, 219);
+    height: 60px;
+}
+.blokinis{
+    display: block;
+}
+.noMargin{
+    margin-left: 0;
+    margin-right: 0;
+}
+.logoimg{
+    width: 120px;
+    margin-top: 2px;
+    margin-left: 20px;
+}
+.central{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.menuList{
+    padding: 0;
+}
+.backColorAbout{
+    background-color: antiquewhite;
+}
+.textSt{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menuListItem{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 25px;
+}
+.pictureItem{
+    display: inline-block;
+    margin-left: 15px;
+    width: 25%;
+    padding: 0;
+    text-decoration: none;
+}
+.footerMargin{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.noDecor:hover{
+    color: green;
+}
+.noDecor{
+    text-decoration: none;
+    color: black;
+}
+.menuDiv{
+    float: right;
+    width: 30%;
+    font-size: large;
+    color: black;
+}
+.inlineBlockDis{
+    display: inline-block;
+}
+.linijinisBlokinis{
+    display: inline-block;
+}
+.linijinis{
+    display: inline;
+}
+.kvadratas{
+    height: 300px;
+    width: 300px;
+    border: 3px solid orange;
+    margin-left: 30px;
+}
+.sriftas{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.centras{
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+}
