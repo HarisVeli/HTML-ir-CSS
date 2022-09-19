@@ -10,3 +10,49 @@
 .italicIcon{
     font-style: italic;
 }
+.nth_lentele . table{
+    border: 1px solid black;
+    border border-collapse: collapse;
+    margin: 0 auto 50px;
+}
+.nth_lentele th, .nth_lentele td{
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.nth_lentele tr:hover{
+background-color: antiquewhite;
+
+/* komentavimo trumpinys - CTRL / */
+/* 2n - even - lyginiai
+   2n+1 - odd - nelyginiai
+*/
+}
+.nth_lentele tbody > tr:nth-child(2n+1){
+    color:red;
+    background-color: aqua;
+}
+.nth_lentele td::before{
+    content: ":)";
+}
+.td:hover::after {
+    background-color: brown;
+    content: " ":
+    height: 10000px;
+    left: 0;
+    position: absolute;
+    top: -5000px;
+    width: 100%;
+    z-index: -1;
+}
+/*.nth_lentele tbody > tr:nth-child(1n+3){
+    color:green;
+    background-color: aqua;
+*/
+/* Stulpeliu zymejima: 
+Position
+Z- index
+Width and height
+backround-color
+*/
