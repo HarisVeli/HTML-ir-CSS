@@ -1,0 +1,31 @@
+a {
+  color: black;
+  text-decoration: none;
+}
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-left: 0px 20px;
+}
+.logo span {
+    font-weight: normal;
+    font-size: 20px;
+}
+.navLink {
+    padding: 10px 20px;
+}
+.mainHeader a {
+    letter-spacing: 4px;
+}
+.mainHeader a:hover {
+    background-color: grey;
+}
