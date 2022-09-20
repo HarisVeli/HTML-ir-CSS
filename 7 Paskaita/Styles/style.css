@@ -7,6 +7,9 @@ body {
     margin: 0;
     margin-bottom: 1000px;
 }
+img {
+    max-width: 100%;
+}
 
 /* Helpers css======================*/
 
@@ -62,4 +65,31 @@ body {
 }
 .heroTitle span {
     font-weight: normal;
+}
+
+/* Projects======================*/
+
+.projects {
+    padding: 50px 30px;
+}
+.project {
+    position: relative;
+    border: 1px dashed black;
+    flex-basis: 19%;
+    flex-grow: 1;
+}
+.projectContainer { 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.prTitle {
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    font-weight: normal;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
 }
