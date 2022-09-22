@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+/* ourTeam */
+
+.ourTeam { 
+    padding: 3% 20px;
+    text-align: center;
+}
+.teamItem {
+    border: 1px solid black;
+    text-align: center;
+}
+.teamItem img {
+    border-radius: 50%;
+    transition: all 0.75s;
+}
+.teamItem img:hover{
+    opacity: 0.5;
+}
+.teamName {
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 0;
+}
+.teamPosition {
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 18px;
+}
+.teamGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* ourWork */
+
+.ourWork {
+    background-color: #333333;
+    padding: 40px 30px;
+}
+.workItem {
+    margin-left: 20px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.workTitle {
+    font-weight: normal;
+    font-size: 30px;
+}
+.workItemHead {
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    line-height: 30px;
+}
+.customerName { 
+    font-weight: normal;
+    font-size: 20;
+    margin: 20px;
+}
+.tradeName {
+    font-weight: normal;
+    font-size: 18;
+    margin: 20px;
+}
+.workText {
+    font-weight: normal;
+    font-size: 18;
+    margin: 20px;
+    line-height: 30px;
+}
+.workItem img {
+    width: 100%;
+}
+.workGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
