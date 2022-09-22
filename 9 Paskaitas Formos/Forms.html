@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML CSS project</title>
-    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./Styles/Forms.css" />
   </head>
 
   <body>
@@ -42,6 +42,17 @@
         />
 
         <!-- dropdown/select leisti pasirinkti jusu miesta, vilnius, kaunas, klaipeda, siauliai -->
+        <label for="town">Yout Town</label>
+        <select class="textInput" id="town">
+            <option selected value="">Please select town</option>
+            <option value="vilnius">Vilnius</option>
+            <option value="kaunas">Kaunas</option>
+            <option value="klaipeda">Klaipeda</option>
+            <option value="siauliai">Siaulai</option>
+        </select>
+
+        <label for="avatar">Avatar Image</label>
+        <input type="file" id="avatar">
 
         <textarea class="textInput" placeholder="Your message"></textarea>
         <button class="submitBtn" type="submit">
