@@ -1,0 +1,73 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+@import "reset.css";
+
+
+body {
+    background-color: rgb(219, 219, 219);
+    margin: 20px;
+}
+
+.cssArticle {
+    padding: 20px;
+    border-radius: 1%;
+    background-color: white;
+    grid-area: cssArticle;
+}
+
+.htmlArticle {
+    padding: 15px;
+    border-radius: 1%;
+    background-color: white;
+    grid-area: htmlArticle;
+}
+
+.jsArticle {
+    padding: 20px;
+    border-radius: 1%;
+    background-color: white;
+    grid-area: jsArticle;
+}
+
+.backArticle {
+    padding: 20px;
+    border-radius: 1%;
+    background-color: white;
+    grid-area: backArticle;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    grid-template-areas:
+        "cssArticle cssArticle htmlArticle"
+        "jsArticle backArticle backArticle";
+}
+.maxWidth
+{
+    max-width: 100%;
+}
+.btn-large {
+    font-size: 40px;
+}
+.btn {
+    padding: 0.5em 1em;
+    font-size: 20px;
+}
+/*Jeigu mygtukas turi 20px is virsaus tai tures 40px proporcijomis, lengviau 
+adaptizuojasi prie ekranu*/
+
+
+/* Mobile display */
+
+@media screen and (max-width: 375px) {
+    .layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        grid-template-areas:
+            "cssArticle cssArticle"
+            "htmlArticle htmlArticle"
+            "jsArticle jsArticle"
+            "backArticle backArticle";
+  }

@@ -1,0 +1,35 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+@import 'reset.css';
+
+
+* {
+    box-sizing: border-box;
+}
+.gridForm {
+    display: grid;
+    grid-template-columns: repeat(2, 1);
+    gap: 15px;
+}
+.fullRow {
+    grid-column: span 2;
+}
+select.textInput {
+    display: block;
+    width: 100%;
+}
+.textInput {
+    padding: 5px 10px;
+}
+.underSelect {
+    font-size: 10px;
+}
+.buttonSec {
+    display: flex;
+    justify-content: space-between;
+}
+.buttonOne {
+    text-align: left;
+}
+.buttonTwo {
+    text-align: right;
+}

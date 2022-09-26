@@ -1,0 +1,138 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+@import "reset.css";
+
+body {
+    background-color: white;
+    margin: 20px;
+}
+
+.header {
+    padding: 20px;
+    background-color: orange;
+    grid-area: header;
+}
+
+.buttons {
+    padding: 20px;
+    background-color: white;
+    grid-area: buttons;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    grid-template-areas:
+        "home"
+        "about"
+        "contact"
+}
+
+.home {
+    padding: 20px;
+    background-color: brown;
+    grid-area: home;
+}
+
+.about {
+    padding: 20px;
+    background-color: brown;
+    grid-area: about;
+}
+
+.contact {
+    padding: 20px;
+    background-color: brown;
+    grid-area: contact;
+}
+
+.letsResponsive {
+    padding: 20px;
+    background-color: white;
+    grid-area: letsResponsive;
+}
+
+.latestNews {
+    padding: 20px;
+    background-color: white;
+    grid-area: latestNews;
+}
+
+.footer {
+    padding: 20px;
+    background-color: orange;
+    grid-area: footer;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "header header header header"
+        "buttons letsResponsive letsResponsive latestNews"
+        "buttons letsResponsive letsResponsive latestNews"
+        "buttons letsResponsive letsResponsive latestNews"
+        "footer footer footer footer"
+}
+
+/* Tablet display */
+
+@media screen and (max-width: 786px) {
+    .layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        grid-template-areas:
+            "header header header header"
+            "buttons letsResponsive letsResponsive letsResponsive"
+            "buttons letsResponsive letsResponsive letsResponsive"
+            "latestNews letsResponsive letsResponsive letsResponsive"
+            "latestNews letsResponsive letsResponsive letsResponsive"
+            "footer footer footer footer"
+    }
+
+    .home {
+        padding: 10px;
+        background-color: brown;
+        grid-area: home;
+    }
+
+    .about {
+        padding: 10px;
+        background-color: brown;
+        grid-area: about;
+    }
+
+    .contact {
+        padding: 10px;
+        background-color: brown;
+        grid-area: contact;
+
+        .buttons {
+            padding: 10px;
+            background-color: white;
+            grid-area: buttons;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 16px;
+            grid-template-areas:
+                "home"
+                "about"
+                "contact"
+        }
+    }
+
+
+    /* Mobile display */
+
+    @media screen and (max-width: 450px) {
+        .layout {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-areas:
+                "header"
+                "buttons"
+                "buttons"
+                "letsResponsive"
+                "latestNews"
+                "latestNews"
+                "footer"
+        }
+    }
