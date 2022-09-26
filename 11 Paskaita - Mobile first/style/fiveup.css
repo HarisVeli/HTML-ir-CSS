@@ -1,0 +1,85 @@
+@import 'reset.css';
+
+/* Global */
+
+html {
+  font-size: 16px;
+}
+
+.btn {
+  font-size: 1.2rem;
+  padding: 0.5em 1em;
+  border-radius: 0;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* HERO */
+
+.hero {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #333;
+  color: #fff;
+  padding: 0 1.5rem;
+}
+
+.hero__title {
+  font-size: 1.5rem;
+}
+
+.hero__hr {
+  background-color: #fff;
+  height: 2px;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.hero__subTitle {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+/* POSTS */
+
+.post {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.post__header {
+  align-self: center;
+  max-width: 60%;
+  padding: 0 1.5rem;
+}
+
+.post__header,
+.post__image {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  color: white;
+}
+
+.post__image {
+    min-height: 250px;
+}
+
+.post__hr {
+    background-color: white;
+    height: 2px;
+    width: 100%;
+    margin: 10px 0px;
+}
+.post__title {
+    margin-bottom: 2px;
+    font-weight: normal;
+}
+.post__subTitle {
+    font-size: 14px;
+}
