@@ -83,3 +83,9 @@ html {
 .post__subTitle {
     font-size: 14px;
 }
+
+/* Tablet portrait */
+
+@media and (min-width: 480px) {
+  
+}
