@@ -1,0 +1,36 @@
+@import 'reset.css';
+
+
+p::first-letter {
+    color: brown;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+h1::before {
+    content: 'sss ';
+    color: blue;
+}
+
+.main { 
+    background-color: tomato;
+    padding: 20px;
+    grid-area: main;
+}
+
+.aside {
+    overflow-y: scroll;
+    background-color:aqua; 
+    padding: 20px;
+    grid-area: aside;
+    max-height: 300px;
+}
+
+.layout {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto 30%;
+    grid-template-areas:
+        "main aside"
+
+}
