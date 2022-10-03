@@ -1,0 +1,27 @@
+.cardSocialMedia { 
+    display: none;
+}
+
+.teamImgTab {
+    position: relative;
+    overflow: hidden;
+}
+
+.teamImgTab:hover .cardSocialMedia {
+    left: 0;
+}
+
+.cardSocialMedia {
+    position: absolute;
+    background-color: var(--main-color);
+    color: #fff;
+    height: calc(100% - 4px);
+    top: 0;
+    left: -45px;
+    transition: left 0.2s ease-out;
+}
+
+.cardSocialLink {
+    padding: 10px;
+    display: block;
+  }
