@@ -4,8 +4,6 @@
   
   body {
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #ededed;
   }
   
   a {
@@ -41,30 +39,3 @@
     background-color: snow;
   }
   
-  /*  helpers */
-  
-  .flex {
-    display: flex;
-    gap: 1rem;
-  }
-  
-  .flex-col {
-    flex-direction: column;
-  }
-  
-  .align-start {
-    align-items: flex-start;
-  }
-  
-  .max-w-300 {
-    max-width: 300px;
-  }
-  
-  .mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .mb-20 {
-    margin-bottom: 20px;
-  }
