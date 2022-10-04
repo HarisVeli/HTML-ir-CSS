@@ -59,3 +59,14 @@ body {
   border: 1px solid vars.$secondary-color;
   @include myFlex($direction: column, $gap: 25px);
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 5fr);
+  gap: 20px;
+  transform: translate(50%);
+}
+
+.box:hover {
+  background-color: darken(tomato, 20%);
+}

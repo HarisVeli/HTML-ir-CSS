@@ -1,0 +1,72 @@
+@use '_reset';
+@use '_common';
+@import url ('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+body { 
+    font-family: 'Popins', sans-serif;
+}
+
+
+// latest news
+
+.lateNews {
+    background-color: #333;
+    color: snow;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.container>.btn {
+    margin-bottom: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newsTitle {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.newsSubtitle {
+    font-weight: 300;
+    text-align: center;
+}
+
+.newsPost {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.newsPost {
+    background-color: snow;
+    color: #333;
+}
+
+.newsPostDiscription {
+    padding: 0px 30px 30px;
+}
+
+.newsPostDiscription a {
+    color: rgb(216, 184, 0);
+    &::before {
+        content: 'f0a9';
+    }
+}
+
+
+.newsPostTitle {
+    font-weight: 800
+}
+
+.newsPostImg {
+    margin-bottom: 37px;
+}
+
+.newsPostShort {
+    margin-top: 40px;
+    margin-bottom: 55px;
+    line-height: 1.7rem;
+    font-weight: 500;
+    color: rgb(131, 131, 131);
+}
