@@ -1,5 +1,6 @@
 @use "_reset";
 @use "_common";
+@use 'vars' as v;
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
 
 // HERO ----------
@@ -20,6 +21,29 @@
 // OUR FEATURES -----------
 
 .ourFeatures {
+    text-align: center;
     padding-top: 4rem;
     padding-bottom: 4rem;
+
+    .featureCard h2 {
+        margin-bottom: 0.2em;
+    }
+
+    .iconFeature {
+        position: relative;
+        font-size: 2.5rem;
+        margin-bottom: 0.5em;
+        margin-top: 0.4em;
+        color: lightgray;
+        &::after {
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: transparentize(v.$secondary-color, 0.5);
+            left: 50%;
+            top: -6px;
+        }
+    }
 }
