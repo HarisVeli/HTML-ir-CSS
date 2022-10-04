@@ -1,4 +1,25 @@
-@use '_reset';
-@use '_common';
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+@use "_reset";
+@use "_common";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
 
+// HERO ----------
+
+.hero {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+
+  .heroText {
+    margin-bottom: 2rem;
+  }
+
+  button {
+    margin-bottom: 1.5rem;
+  }
+}
+
+// OUR FEATURES -----------
+
+.ourFeatures {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}

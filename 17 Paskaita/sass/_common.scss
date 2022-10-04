@@ -4,6 +4,27 @@ body {
     font-family: 'Open Sans', sans-serif;
   }
 
+p { 
+    color: transparentize(black, 0.5);
+    font-size: 14px;
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 .btn {
     border: none;
     padding: 0.5em 1em;
@@ -17,7 +38,7 @@ body {
 .btnOutline { 
     @extend .btn;
     background: transparent;
-    color: v.$primary-light-color;
+    color: v.$primary-color;
 }
 
 .headerPill {
@@ -32,7 +53,7 @@ body {
     border: none;
 }
 
-sectionTitle {
+.sectionTitle {
     color: v.$primary-color;
     font-size: 2rem;
     margin-bottom: 0.5em;
