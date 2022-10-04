@@ -1,7 +1,7 @@
 @use 'vars' as v;
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
 
 .btn {
@@ -36,5 +36,6 @@ sectionTitle {
     color: v.$primary-color;
     font-size: 2rem;
     margin-bottom: 0.5em;
+    font-family: 'Montserrat';
     font-weight: 700;
 }
