@@ -47,3 +47,13 @@
         }
     }
 }
+
+// ABOUT US
+
+.aboutList {
+    list-style-type: none;
+
+    aboutItem::before {
+        content: '/f00c';
+    }
+}
